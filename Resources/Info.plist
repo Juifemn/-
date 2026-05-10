@@ -5,15 +5,15 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>zh_CN</string>
     <key>CFBundleExecutable</key>
-    <string>旋转跳跃我闭着眼</string>
+    <string>光标回航</string>
     <key>CFBundleIdentifier</key>
-    <string>local.xuanzhuantiaoyuewobizheyan</string>
+    <string>io.github.juifemn.pointerpilot</string>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>旋转跳跃我闭着眼</string>
+    <string>光标回航</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

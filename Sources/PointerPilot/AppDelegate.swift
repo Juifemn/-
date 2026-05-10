@@ -80,7 +80,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func configureStatusItem() {
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let button = item.button {
-            if let image = NSImage(systemSymbolName: "cursorarrow.motionlines", accessibilityDescription: "旋转跳跃我闭着眼") {
+            if let image = NSImage(systemSymbolName: "cursorarrow.motionlines", accessibilityDescription: "光标回航") {
                 image.isTemplate = true
                 button.image = image
             } else {
@@ -94,7 +94,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func refreshMenu() {
         let menu = NSMenu()
 
-        let titleItem = NSMenuItem(title: "旋转跳跃我闭着眼", action: nil, keyEquivalent: "")
+        let titleItem = NSMenuItem(title: "光标回航 PointerPilot", action: nil, keyEquivalent: "")
         titleItem.isEnabled = false
         menu.addItem(titleItem)
 

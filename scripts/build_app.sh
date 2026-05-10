@@ -2,8 +2,8 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-APP_NAME="旋转跳跃我闭着眼"
-EXECUTABLE_NAME="CursorScreenSwitcher"
+APP_NAME="光标回航"
+EXECUTABLE_NAME="PointerPilot"
 CONFIGURATION="${1:-release}"
 
 cd "$ROOT_DIR"

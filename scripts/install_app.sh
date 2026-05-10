@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-APP_NAME="旋转跳跃我闭着眼"
+APP_NAME="光标回航"
 SOURCE_APP="$ROOT_DIR/$APP_NAME.app"
 TARGET_APP="/Applications/$APP_NAME.app"
 

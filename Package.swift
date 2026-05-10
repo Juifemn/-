@@ -3,19 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "旋转跳跃我闭着眼",
+    name: "PointerPilot",
     platforms: [
         .macOS(.v13)
     ],
     products: [
         .executable(
-            name: "CursorScreenSwitcher",
-            targets: ["CursorScreenSwitcher"]
+            name: "PointerPilot",
+            targets: ["PointerPilot"]
         )
     ],
     targets: [
         .executableTarget(
-            name: "CursorScreenSwitcher",
+            name: "PointerPilot",
             swiftSettings: [
                 .swiftLanguageMode(.v5)
             ],

@@ -22,7 +22,7 @@ final class PermissionWindowController: NSWindowController {
             backing: .buffered,
             defer: false
         )
-        window.title = "旋转跳跃我闭着眼"
+        window.title = "光标回航"
         window.center()
 
         super.init(window: window)
